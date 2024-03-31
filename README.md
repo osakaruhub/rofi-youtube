@@ -7,27 +7,30 @@ searching for youtube videos that you already know the title in the website may 
 
 - search for any youtube video
 - watch from mpv (soon more!) or just listen
+- use your favorite multimedia player such as mpv or vlc!
 
 # Installation
 
 Download the rofi-youtube executable and run it, it's as easy as that.
+Be sure to put in your Youtube Data API Key in the config first.
 
 # Configuration
 
-The default path for the configuration file is in ~/.config/rofi-youtube/config.ini.<br>
+The default path for the configuration file is ~/.config/rofi-youtube/config.ini.<br>
 possible condifguration:
-| field | value |
+| field | default value |
 |--------------- | --------------- |
 | api_key | N/A |
 | default_player | mpv |
 | rofi_config_path | ~/.config/rofi |
 
-# Dependincies
+# Dependencies
 
 [rofi](https://github.com/davatorium/rofi) (awesome menu dialog, dmenu alternative)<br>
 [mpv](https://github.com/mpv-player/mpv) (simple light-weight multimedia player)
+[jq](https://github.com/jqlang/jq) (powerful JSON processor)
 
 # Contributors
 
-<p>just me for the moment.<br>
-feel free to contribute though.</p>
+<p>Just me for the moment.<br>
+Feel free to contribute though.</p>
