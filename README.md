@@ -8,6 +8,7 @@ searching for youtube videos that you already know the title in the website may 
 - search for any youtube video
 - watch from mpv (soon more!) or just listen
 - use your favorite multimedia player such as mpv or vlc!
+- video & search history
 
 # Installation
 
@@ -23,6 +24,8 @@ possible condifguration:
 | api_key | N/A |
 | default_player | mpv |
 | rofi_config_path | ~/.config/rofi |
+| rofi_file | ~/.cache/rofi-youtube |
+| cache_file_size | 50 |
 
 # Dependencies
 
