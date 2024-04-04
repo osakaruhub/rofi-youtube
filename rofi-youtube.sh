@@ -1,15 +1,15 @@
 Help()
 {
-  printf "%s\n"
-  "Usage: rofi-youtube [OPTION] TARGET"
-	""
-	"rofi frontend for youtube - search and play youtube content using rofi!"
-	"Posible command options:"
-	"		       -h | --help             : Display this message"
-  "		       -v | --version          : Print version and exit"
-  "          -n | --no-video         : Play without video (only audio)"
-  "          -c | --config <PATH>    : Use a different config"
-  "          -e | --edit-config      : Edit the configuration file"
+  printf "%s\n" \
+  "Usage: rofi-youtube [OPTION] TARGET" \
+	"" \
+	"rofi frontend for youtube - search and play youtube content using rofi!" \
+	"Posible command options:" \
+	"		       -h | --help             : Display this message" \
+  "		       -v | --version          : Print version and exit" \
+  "          -n | --no-video         : Play without video (only audio)" \
+  "          -c | --config <PATH>    : Use a different config" \
+  "          -e | --edit-config      : Edit the configuration file" \
   "          -p | --player <PLAYER>  : Set multimedia player";
 }
 
